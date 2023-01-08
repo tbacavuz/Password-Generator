@@ -1,5 +1,5 @@
 body {
-    margin: auto auto;
+    margin: 10vh auto;
     width: 550px;
     background: #1F2937;
     font-family: 'Inter';
@@ -21,11 +21,13 @@ body {
 
 .box {
     width: 211px;
-    height: 39px;
+    height: 35px;
     background: #273549;
     border-radius: 6px;
     padding: 10px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
