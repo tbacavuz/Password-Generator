@@ -4,7 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let pass1 = document.getElementById("pass1");
 let pass2 = document.getElementById("pass2");
 // let length = document.getElementById("lenght");
-let length = 13;
+let length = 15;
 
 function generate(){
     pass1.textContent = random(length);
