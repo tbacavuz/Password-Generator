@@ -46,7 +46,6 @@ span{
 }
 
 button{
-    mar: 10px;
     margin-bottom: 20px;
     border-radius: 6px;
     width: 191px;
@@ -60,4 +59,8 @@ button{
 button:hover{
     background: #10b9818e;
     transition: 0.3s;
+}
+
+.pass{
+    color: #55F991;
 }
